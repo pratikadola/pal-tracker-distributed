@@ -31,3 +31,7 @@ bootRun.environment([
         "REGISTRATION_SERVER_ENDPOINT": "http://registration-server",
         "SECURITY_OAUTH2_CLIENT_CLIENT_SECRET": "supersecret"
 ])
+
+test.environment([
+        "REGISTRATION_SERVER_ENDPOINT": "http://registration-server"
+])
